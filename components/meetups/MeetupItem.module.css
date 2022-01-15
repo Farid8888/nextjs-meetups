@@ -1,0 +1,40 @@
+.image {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+  }
+  
+  .image img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .item{
+      list-style: none;
+      margin-bottom: 2rem;
+  }
+
+  .content{
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  .actions{
+      text-align: center;
+  }
+
+  .actions button{
+      padding: 8px 30px;
+      border-radius: 3px;
+      color: rgb(68, 2, 2);
+      background-color:white;
+      border:1px solid rgb(61, 3, 3);
+      margin-bottom: 1.3rem;
+      cursor: pointer;
+  }
+
+  .actions button:hover{
+      background-color: rgba(61, 6, 6, 0.205);
+  }

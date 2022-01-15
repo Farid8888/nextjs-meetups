@@ -1,0 +1,43 @@
+.control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.general{
+    padding: 15px;
+}
+
+.general label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.general input{
+    border:1px solid rgba(128, 128, 128, 0.349);
+    border-radius: 3px;
+    padding: 5px 2px;
+}
+
+.general textarea{
+    border:1px solid rgba(128, 128, 128, 0.349);
+    border-radius: 3px;
+    padding: 5px 2px;
+}
+
+.btn{
+    text-align: end;
+}
+
+.btn button{
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: rgb(88, 2, 2);
+    color: white;
+    cursor: pointer;
+    border:none
+}
+
+.btn button:hover{
+    background-color: indianred;
+}

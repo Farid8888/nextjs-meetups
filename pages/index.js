@@ -17,7 +17,7 @@ const Index =(props)=>{
 }
 
 export async function getStaticProps(context){
-    const client = await MongoClient.connect('mongodb+srv://dmasta:S3lwoocXG6yNuS17@cluster0.ivisq.mongodb.net/meetups?retryWrites=true&w=majority')
+    const client = await MongoClient.connect('mongodb+srv://Farid:dmasta123@cluster0.zrtgp.mongodb.net/meetups?retryWrites=true&w=majority')
     const db = client.db()
     const meetupsCollection = db.collection('meetups')
     const meetups = await meetupsCollection.find().toArray()

@@ -45,7 +45,7 @@ const client = await MongoClient.connect('mongodb+srv://Farid:dmasta123@cluster0
   const meetupsCollection = db.collection('meetups')
   const meetups = await meetupsCollection.findOne({_id:ObjectId(meetupId)})
   const example = await meetupsCollection.find({_id:ObjectId(meetupId)}).toArray()
-   console.log(example)
+   console.log(example,'example')
   client.close()
 return{
   props:{
